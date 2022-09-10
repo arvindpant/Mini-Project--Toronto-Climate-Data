@@ -1,0 +1,7 @@
+Run script 
+1. To get help 
+	year_wise_data.sh -h 
+2. To start processing data
+	year_wise_data.sh -p
+3. TO get logs 
+	year_wise_data.sh -p >> year_wise_data.log 2>$1

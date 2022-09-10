@@ -1,0 +1,42 @@
+------------------Start reading data from API at Sat 10 Sep 2022 14:33:48 EDT------------------------
+--2022-09-10 14:33:48--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘en_climate_hourly_ON_6158359_02-2020_P1H.csv’
+
+     0K .......... .......... .......... .......... ..........  975K
+    50K .......... .......... .......... .......... .......... 2.86M
+   100K .......... .......... .......                          14.1M=0.07s
+
+2022-09-10 14:33:49 (1.77 MB/s) - ‘en_climate_hourly_ON_6158359_02-2020_P1H.csv’ saved [130712]
+
+--2022-09-10 14:33:49--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘en_climate_hourly_ON_6158359_02-2021_P1H.csv’
+
+     0K .......... .......... .......... .......... ..........  684K
+    50K .......... .......... .......... .......... .......... 1.64M
+   100K .......... .......... ...                              30.2M=0.1s
+
+2022-09-10 14:33:50 (1.17 MB/s) - ‘en_climate_hourly_ON_6158359_02-2021_P1H.csv’ saved [126714]
+
+--2022-09-10 14:33:50--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘en_climate_hourly_ON_6158359_02-2022_P1H.csv’
+
+     0K .......... .......... .......... .......... ..........  598K
+    50K .......... .......... .......... .......... ..........  947K
+   100K .......... .......... ...                               693K=0.2s
+
+2022-09-10 14:33:51 (725 KB/s) - ‘en_climate_hourly_ON_6158359_02-2022_P1H.csv’ saved [126636]
+
+Executing python script combine_all_year_data.py to combine data into all_year.csv
+---------------Finished reading data from API at Sat 10 Sep 2022 14:33:52 EDT-------------------
