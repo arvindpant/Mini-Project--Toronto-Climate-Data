@@ -1,3 +1,11 @@
+Shell script: You will use the shell script to control every operation, including data downloading, log setting, python script running.
+
+Python script: While the Python script is used to concatenate all the data into one file.
+
+all_years.csv: This is the output file you concatenate all the downloads.
+
+Note: CSV data and all_years.csv files will be created in same directory as bash script
+
 Run script 
 1. To get help 
 	year_wise_data.sh -h 
