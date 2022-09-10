@@ -12,8 +12,8 @@
 
 ## How to run program 
 1. To get help 
-	year_wise_data.sh -h 
-2. To start processing data
-	year_wise_data.sh -p
-3. TO get logs 
+	./year_wise_data.sh -h 
+3. To start processing data
+	./year_wise_data.sh -p
+5. To get logs 
 	./year_wise_data.sh -p >> <path_name>/year_wise_data_$(date "+%d%m%Y%H%M%S").log 2>&1
